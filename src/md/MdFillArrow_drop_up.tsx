@@ -5,7 +5,10 @@ export function MdFillArrow_drop_up(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"m7 14 5-5 5 5z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="m7 14 5-5 5 5z"/>',
+      }}
     />
   );
 }

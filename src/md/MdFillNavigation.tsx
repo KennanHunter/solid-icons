@@ -5,7 +5,10 @@ export function MdFillNavigation(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M12 2 4.5 20.29l.71.71L12 18l6.79 3 .71-.71z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="M12 2 4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/>',
+      }}
     />
   );
 }

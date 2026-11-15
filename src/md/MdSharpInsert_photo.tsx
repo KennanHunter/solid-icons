@@ -5,7 +5,10 @@ export function MdSharpInsert_photo(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M21 21V3H3v18h18zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="M21 21V3H3v18h18zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>',
+      }}
     />
   );
 }

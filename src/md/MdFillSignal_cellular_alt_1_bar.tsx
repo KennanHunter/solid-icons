@@ -5,7 +5,10 @@ export function MdFillSignal_cellular_alt_1_bar(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M5 14h3v6H5v-6z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="M5 14h3v6H5v-6z"/>',
+      }}
     />
   );
 }

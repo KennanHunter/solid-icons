@@ -5,7 +5,10 @@ export function MdSharpFlash_on(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M7 2v11h3v9l7-12h-4l3-8z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="M7 2v11h3v9l7-12h-4l3-8z"/>',
+      }}
     />
   );
 }

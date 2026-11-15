@@ -5,7 +5,10 @@ export function MdFillHorizontal_rule(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path fill-rule=\"evenodd\" d=\"M4 11h16v2H4z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path fill-rule="evenodd" d="M4 11h16v2H4z"/>',
+      }}
     />
   );
 }

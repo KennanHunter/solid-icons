@@ -5,7 +5,10 @@ export function MdTwotoneFlash_on(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M17 10h-4l3-8H7v11h3v9z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="M17 10h-4l3-8H7v11h3v9z"/>',
+      }}
     />
   );
 }

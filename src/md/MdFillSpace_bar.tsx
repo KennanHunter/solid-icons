@@ -5,7 +5,10 @@ export function MdFillSpace_bar(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M18 9v4H6V9H4v6h16V9z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="M18 9v4H6V9H4v6h16V9z"/>',
+      }}
     />
   );
 }

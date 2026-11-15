@@ -5,7 +5,10 @@ export function MdSharpFast_forward(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"m4 18 8.5-6L4 6v12zm9-12v12l8.5-6L13 6z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="m4 18 8.5-6L4 6v12zm9-12v12l8.5-6L13 6z"/>',
+      }}
     />
   );
 }

@@ -1,11 +1,16 @@
 import type { JSX } from "solid-js";
 import { IconBase, type IconProps } from "../IconBase";
 
-export function MdFillFormat_textdirection_r_to_l(props: IconProps): JSX.Element {
+export function MdFillFormat_textdirection_r_to_l(
+  props: IconProps,
+): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M10 10v5h2V4h2v11h2V4h2V2h-8C7.79 2 6 3.79 6 6s1.79 4 4 4zm-2 7v-3l-4 4 4 4v-3h12v-2H8z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="M10 10v5h2V4h2v11h2V4h2V2h-8C7.79 2 6 3.79 6 6s1.79 4 4 4zm-2 7v-3l-4 4 4 4v-3h12v-2H8z"/>',
+      }}
     />
   );
 }

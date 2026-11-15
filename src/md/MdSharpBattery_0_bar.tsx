@@ -5,7 +5,10 @@ export function MdSharpBattery_0_bar(props: IconProps): JSX.Element {
   return (
     <IconBase
       {...props}
-      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M17 4v18H7V4h3V2h4v2h3zm-2 2H9v14h6V6z\"/>"}}
+      data={{
+        attrs: { viewBox: "0 0 24 24", fill: "currentColor" },
+        body: '<path d="M17 4v18H7V4h3V2h4v2h3zm-2 2H9v14h6V6z"/>',
+      }}
     />
   );
 }
