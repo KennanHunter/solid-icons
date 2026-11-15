@@ -1,0 +1,11 @@
+import type { JSX } from "solid-js";
+import { IconBase, type IconProps } from "../IconBase";
+
+export function MdOutlineReport(props: IconProps): JSX.Element {
+  return (
+    <IconBase
+      {...props}
+      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM19 14.9 14.9 19H9.1L5 14.9V9.1L9.1 5h5.8L19 9.1v5.8z\"/><path d=\"M12 15A1 1 0 1 0 12 17 1 1 0 1 0 12 15z\"/><path d=\"M11 7h2v7h-2z\"/>"}}
+    />
+  );
+}

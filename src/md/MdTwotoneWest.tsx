@@ -1,0 +1,11 @@
+import type { JSX } from "solid-js";
+import { IconBase, type IconProps } from "../IconBase";
+
+export function MdTwotoneWest(props: IconProps): JSX.Element {
+  return (
+    <IconBase
+      {...props}
+      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"m9 19 1.41-1.41L5.83 13H22v-2H5.83l4.59-4.59L9 5l-7 7 7 7z\"/>"}}
+    />
+  );
+}

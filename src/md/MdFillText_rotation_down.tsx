@@ -1,0 +1,11 @@
+import type { JSX } from "solid-js";
+import { IconBase, type IconProps } from "../IconBase";
+
+export function MdFillText_rotation_down(props: IconProps): JSX.Element {
+  return (
+    <IconBase
+      {...props}
+      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M21 12v-1.5L10 5.75v2.1l2.2.9v5l-2.2.9v2.1L21 12zm-7-2.62 5.02 1.87L14 13.12V9.38zM6 19.75l3-3H7V4.25H5v12.5H3l3 3z\"/>"}}
+    />
+  );
+}

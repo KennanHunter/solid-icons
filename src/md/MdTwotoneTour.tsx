@@ -1,0 +1,11 @@
+import type { JSX } from "solid-js";
+import { IconBase, type IconProps } from "../IconBase";
+
+export function MdTwotoneTour(props: IconProps): JSX.Element {
+  return (
+    <IconBase
+      {...props}
+      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M7 12V6h11.05l-1.2 3 1.2 3z\" opacity=\".3\"/><path d=\"M21 4H7V2H5v20h2v-8h14l-2-5 2-5zM7 12V6h11.05l-1.2 3 1.2 3H7zm7-3c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2z\"/>"}}
+    />
+  );
+}

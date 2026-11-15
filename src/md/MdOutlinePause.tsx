@@ -1,0 +1,11 @@
+import type { JSX } from "solid-js";
+import { IconBase, type IconProps } from "../IconBase";
+
+export function MdOutlinePause(props: IconProps): JSX.Element {
+  return (
+    <IconBase
+      {...props}
+      data={{"attrs":{"viewBox":"0 0 24 24","fill":"currentColor"},"body":"<path d=\"M6 19h4V5H6v14zm8-14v14h4V5h-4z\"/>"}}
+    />
+  );
+}
