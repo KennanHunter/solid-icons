@@ -19,10 +19,10 @@ const text = readFileSync(srcJs, "utf8");
 const re =
   /export function (\w+)\(props\)\{return IconTemplate\((\{a:\{[^}]*\},c:'[^']*'\})/g;
 
-const names = [];
+let count = 0;
 for (const m of text.matchAll(re)) {
   const [, name, data] = m;
-  names.push(name);
+  count++;
   const { a: attrs, c: body } = new Function(`return (${data});`)();
   const tsx = `import type { JSX } from "solid-js";
 import { IconBase, type IconProps } from "../IconBase";
@@ -39,8 +39,4 @@ export function ${name}(props: IconProps): JSX.Element {
   writeFileSync(resolve(outDir, `${name}.tsx`), tsx);
 }
 
-writeFileSync(
-  resolve(outDir, "index.ts"),
-  names.map((n) => `export { ${n} } from "./${n}";`).join("\n") + "\n",
-);
-console.log(`${pack}: wrote ${names.length} icons`);
+console.log(`${pack}: wrote ${count} icons`);

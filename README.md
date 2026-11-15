@@ -11,8 +11,8 @@ Source-only TSX fork of [`solid-icons`](https://github.com/x64Bits/solid-icons).
 ```
 
 ```tsx
-import { MdFillLight_mode } from "solid-icons/md";
-import { AiOutlineInfoCircle } from "solid-icons/ai";
+import { MdFillLight_mode } from "solid-icons/md/MdFillLight_mode";
+import { AiOutlineInfoCircle } from "solid-icons/ai/AiOutlineInfoCircle";
 ```
 
 Grep `src/md/` or `src/ai/` for exact names.

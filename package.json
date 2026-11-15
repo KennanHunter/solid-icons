@@ -7,13 +7,13 @@
     "src"
   ],
   "exports": {
-    "./md": {
-      "solid": "./src/md/index.ts",
-      "default": "./src/md/index.ts"
+    "./md/*": {
+      "solid": "./src/md/*.tsx",
+      "default": "./src/md/*.tsx"
     },
-    "./ai": {
-      "solid": "./src/ai/index.ts",
-      "default": "./src/ai/index.ts"
+    "./ai/*": {
+      "solid": "./src/ai/*.tsx",
+      "default": "./src/ai/*.tsx"
     }
   },
   "peerDependencies": {
